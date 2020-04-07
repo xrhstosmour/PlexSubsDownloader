@@ -1,0 +1,8 @@
+[Unit]                                                                                                
+Description=Search and download Greek and English subtitles each time a new video is created                                                                                                                
+
+[Service]                                                                                             
+ExecStart=/usr/bin/autoDownloadSubs.sh                                                                                                                                                                      
+
+[Install]                                                                                             
+WantedBy=multi-user.target                                                                                                          
